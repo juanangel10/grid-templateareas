@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:blue;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.layout {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 5% 80% 5%;
+  
+    }
+
+    .caja1 {
+        grid-column: 1 / span 3;      
+        background-color:chocolate;
+
+    }
+     .caja2 {       
+        background-color:cadetblue;
+
+     }
+
+     .caja3 {
+        background-color:burlywood;
+
+     }
+
+     .caja4 {
+        background-color: brown;
+
+     }
+      .caja5 {
+        grid-column: 1 / span 3;
+        background-color:chocolate ;
+      
+       }
